@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For elegant page transitions and scroll reveals"
+  "react-hook-form": "For robust contact form handling"
+  "@hookform/resolvers": "For Zod validation in the contact form"
+  "zod": "For schema validation"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes safely"
+images:
+  - path: "artifacts/secretcues/public/images/hero-bg.png"
+    description: "Elegant, soft, warm creamy neutral abstract background with subtle gold dust and light flares, high-end editorial lifestyle blog style, out of focus, minimalist"
+    aspect_ratio: "16:9"
+  - path: "artifacts/secretcues/public/images/jada-portrait.png"
+    description: "Artistic, elegant portrait illustration of a beautiful professional woman, warm neutral tones, gold accents, lifestyle blog style, minimalist line art with soft watercolor touches"
+    aspect_ratio: "3:4"
+notes:
+  - Frontend-only site, using hardcoded data for posts since no API was provided.
+  - Using wouter for client-side routing.
