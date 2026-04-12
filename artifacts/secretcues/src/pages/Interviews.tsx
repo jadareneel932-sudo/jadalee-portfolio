@@ -159,6 +159,14 @@ export default function Interviews() {
               allowFullScreen
             />
           </div>
+          <div className="px-6 py-5 border-t border-border space-y-3">
+            <p className="text-sm text-foreground/70 leading-relaxed">
+              Democratic House Speaker McClinton was able to visit for 35th MLK March at Shippensburg University. House Speaker McClinton is the first woman and the second Black Woman to serve as Speaker of Pennsylvania House of Representatives. I was able to sit with her and discuss the importance of equality.
+            </p>
+            <p className="text-sm text-foreground/60">
+              To view: <span className="font-semibold text-foreground">0–4:00</span>
+            </p>
+          </div>
         </motion.div>
       </section>
 
