@@ -164,6 +164,9 @@ export default function Interviews() {
           <h2 className="font-serif text-4xl md:text-5xl font-light">
             American Politician, Rep. <em className="text-primary">Joanna McClinton</em>
           </h2>
+          <p className="text-foreground/70 text-sm leading-relaxed mt-4">
+            Democratic House Speaker McClinton was able to visit for 35th MLK March at Shippensburg University. House Speaker McClinton is the first woman and the second Black Woman to serve as Speaker of Pennsylvania House of Representatives. I was able to sit with her and discuss the importance of equality.
+          </p>
         </motion.div>
 
         <motion.div
@@ -181,10 +184,7 @@ export default function Interviews() {
               allowFullScreen
             />
           </div>
-          <div className="px-6 py-5 border-t border-border space-y-3">
-            <p className="text-sm text-foreground/70 leading-relaxed">
-              Democratic House Speaker McClinton was able to visit for 35th MLK March at Shippensburg University. House Speaker McClinton is the first woman and the second Black Woman to serve as Speaker of Pennsylvania House of Representatives. I was able to sit with her and discuss the importance of equality.
-            </p>
+          <div className="px-6 py-4 border-t border-border">
             <p className="text-sm text-foreground/60">
               To view: <span className="font-semibold text-foreground">0–4:00</span>
             </p>
