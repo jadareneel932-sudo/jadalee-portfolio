@@ -70,7 +70,10 @@ export default function Interviews() {
               allowFullScreen
             />
           </div>
-          <div className="px-6 py-4 border-t border-border">
+          <div className="px-6 py-5 border-t border-border space-y-3">
+            <p className="text-sm text-foreground/70 leading-relaxed">
+              This semester I have had the pleasure to interview students across campus regarding different relevant topics.
+            </p>
             <p className="text-sm text-foreground/60">
               To view: <span className="font-semibold text-foreground">31:00–32:00</span>
             </p>
