@@ -54,6 +54,23 @@ export default function Interviews() {
             </p>
           </div>
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.25 }}
+          className="mt-6 rounded-2xl overflow-hidden border border-border shadow-lg bg-card"
+        >
+          <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              src="https://www.youtube.com/embed/qZ_Ydu6QXeA?start=4"
+              title="ShipTalk 2"
+              className="absolute inset-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </motion.div>
       </section>
 
       {/* HEATHER McGHEE SECTION */}
