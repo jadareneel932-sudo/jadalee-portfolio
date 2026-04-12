@@ -211,7 +211,7 @@ export default function Interviews() {
         >
           <span className="luxury-label text-primary tracking-[0.3em] mb-3 block">Featured</span>
           <h2 className="font-serif text-4xl md:text-5xl font-light">
-            Wawa <em className="text-primary">Opening</em>
+            Wawa <em className="text-primary">Grand Opening</em>
           </h2>
         </motion.div>
 
