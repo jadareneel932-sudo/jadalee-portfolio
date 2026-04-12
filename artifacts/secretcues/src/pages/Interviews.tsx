@@ -93,6 +93,43 @@ export default function Interviews() {
         </motion.div>
       </section>
 
+      {/* WEATHER REPORTING SECTION */}
+      <section className="py-16 px-6 md:px-12 max-w-5xl mx-auto border-t border-border">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          className="mb-8"
+        >
+          <span className="luxury-label text-primary tracking-[0.3em] mb-3 block">Featured</span>
+          <h2 className="font-serif text-4xl md:text-5xl font-light">
+            Weather <em className="text-primary">Reporting</em>
+          </h2>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.15 }}
+          className="rounded-2xl overflow-hidden border border-border shadow-lg bg-card"
+        >
+          <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              src="https://www.youtube.com/embed/Z8UEp9nfTUg"
+              title="Weather Reporting"
+              className="absolute inset-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className="px-6 py-4 border-t border-border">
+            <p className="text-sm text-foreground/60">
+              To view: <span className="font-semibold text-foreground">25:45–27:20</span>
+            </p>
+          </div>
+        </motion.div>
+      </section>
+
     </main>
   );
 }
