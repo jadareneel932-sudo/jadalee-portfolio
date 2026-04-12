@@ -31,6 +31,9 @@ export default function Interviews() {
           <h2 className="font-serif text-4xl md:text-5xl font-light">
             Ship<em className="text-primary">Talk</em>
           </h2>
+          <p className="text-foreground/70 text-sm leading-relaxed mt-4">
+            This semester I have had the pleasure to interview students across campus regarding different relevant topics.
+          </p>
         </motion.div>
 
         <motion.div
@@ -70,10 +73,7 @@ export default function Interviews() {
               allowFullScreen
             />
           </div>
-          <div className="px-6 py-5 border-t border-border space-y-3">
-            <p className="text-sm text-foreground/70 leading-relaxed">
-              This semester I have had the pleasure to interview students across campus regarding different relevant topics.
-            </p>
+          <div className="px-6 py-4 border-t border-border">
             <p className="text-sm text-foreground/60">
               To view: <span className="font-semibold text-foreground">31:00–32:00</span>
             </p>
