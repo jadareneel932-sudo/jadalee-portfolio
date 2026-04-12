@@ -72,6 +72,7 @@ const experience = [
       "https://www.youtube.com/embed/RjoO7EIQDJw",
       "https://www.youtube.com/embed/pvVlcnF0kvE",
       "https://www.youtube.com/embed/xnALe-fmiOk",
+      "https://www.youtube.com/embed/aTnjukzQlnw?start=10",
     ],
   },
   {
