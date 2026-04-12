@@ -93,6 +93,12 @@ export default function Interviews() {
           <h2 className="font-serif text-4xl md:text-5xl font-light">
             Heather <em className="text-primary">McGhee</em>
           </h2>
+          <p className="text-foreground/70 text-sm leading-relaxed mt-4">
+            Heather McGhee is an award winning author and bestseller of the book, "The Sum of Us." I had the pleasure of interviewing her about her book and her call to action against racism and its affects to the human kind.{" "}
+            <a href="https://heathermcghee.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline underline-offset-4">
+              heathermcghee.com
+            </a>
+          </p>
         </motion.div>
 
         <motion.div
