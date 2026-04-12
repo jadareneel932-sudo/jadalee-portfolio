@@ -56,7 +56,7 @@ export default function Interviews() {
         </motion.div>
       </section>
 
-      {/* HOUSE SPEAKER McCLINTON SECTION */}
+      {/* HEATHER McGHEE SECTION */}
       <section className="py-16 px-6 md:px-12 max-w-5xl mx-auto border-t border-border">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -66,7 +66,7 @@ export default function Interviews() {
         >
           <span className="luxury-label text-primary tracking-[0.3em] mb-3 block">Featured</span>
           <h2 className="font-serif text-4xl md:text-5xl font-light">
-            House Speaker <em className="text-primary">McClinton</em>
+            Heather <em className="text-primary">McGhee</em>
           </h2>
         </motion.div>
 
