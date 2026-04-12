@@ -31,9 +31,6 @@ export default function Interviews() {
           <h2 className="font-serif text-4xl md:text-5xl font-light">
             Ship<em className="text-primary">Talk</em>
           </h2>
-          <p className="text-foreground/70 text-sm leading-relaxed mt-4">
-            This semester I have had the pleasure to interview students across campus regarding different relevant topics.
-          </p>
         </motion.div>
 
         <motion.div
