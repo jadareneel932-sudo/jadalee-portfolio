@@ -70,6 +70,11 @@ export default function Interviews() {
               allowFullScreen
             />
           </div>
+          <div className="px-6 py-4 border-t border-border">
+            <p className="text-sm text-foreground/60">
+              To view: <span className="font-semibold text-foreground">31:00–32:00</span>
+            </p>
+          </div>
         </motion.div>
       </section>
 
